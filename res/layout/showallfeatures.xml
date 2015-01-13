@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/lightgreen"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        >
+        <Button 
+            android:id="@+id/allback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="后退"
+            android:layout_marginLeft="5dp"
+            />
+        <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:text="@string/allSTitle"/>
+    </LinearLayout>
+    
+    <GridView
+        android:id="@+id/lvshow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:choiceMode="singleChoice" 
+	  	android:fadingEdge="none" 
+	  	android:cacheColorHint="#00000000"
+	  	android:numColumns="2"
+	  	android:padding="1dp"
+	  	android:verticalSpacing="2dp"
+        >
+    </GridView>
+
+</LinearLayout>

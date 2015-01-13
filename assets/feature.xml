@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+    <item>
+        <!-- 该景点所对应的图片 -->
+        <pic></pic>
+        <!-- 该景点所对应的声音 -->
+        <sound></sound>
+        <!-- 该景点所对应的文字 -->
+        <text><![CDATA[绍兴文理学院是一个有着深厚文化气息的学校!]]></text>
+    </item>
+</main>

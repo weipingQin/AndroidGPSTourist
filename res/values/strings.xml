@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">你好!导游系统</string>
+    <string name="app_name">导游系统</string>
+    <string name="curbuttonText">当前景点</string>
+    <string name="allbuttonText">所有景点</string>
+    <string name="suoding">锁定当前位置</string>
+    <string name="gailan">景点概览</string>
+    <string name="allSTitle">所有景点</string>
+	<string name="backText">返回</string>
+	<string name="camera">拍照</string>
+	<string name="selectLan">语言</string>
+	<string name="Latitude">纬度</string>
+	<string name="Longitude">经度</string>
+	<string name="GPSFailed">GPS data acquisition !</string>
+	<string name="curs">当前景点</string>
+	<string name="showdis">Distance of this scenic spot:</string>
+	<string name="unit">metre</string>
+	<string name="sorrynocur">对不起,当前景点不存在!</string>
+	<string name="LanTitle">Please select a language</string>
+	<string name="userbackBt">Feedback</string>
+	<string name="userback">User feedback</string>
+	<string name="welcomecontent">Welcome your valuable comments and suggestions,Every word you left will be used to improve our services.</string>
+	<string name="inputjianyi">请提交您的反馈(500字以内)</string>
+	<string name="lxmail">邮件联系</string>
+	<string name="submit">提交</string>
+	<string name="cancel">取消</string>
+	<string name="exit">退出</string>
+	<string name="yes">是</string>
+	<string name="no">否</string>
+	<string name="about">关于</string>
+	<string name="exitdialog">你确保你要退出?</string>
+	<string name="opengps">请确保GPS正处于打开状态</string>
+	<string name="nettitle">网络连接错误</string>
+	<string name="netmessage">网络连接错误,请确保网络正常连接</string>
+	<string name="emailsuccess">邮件发送成功</string>
+	<string name="more">更多...</string>
+	<string name="findrange">搜索周边</string>
+	<string name="share">分享</string>
+	<string name="setting">设置模式</string>
+	<string name="modeDao">导游模式</string>
+	<string name="modeSelf">自主模式</string>
+
+	<string name="APIMapKey">0ZLCAbTwlGJYjoNpl_9OyZhB3qyPXww6UC9-I5g</string>
+	<string name="loading">加载...</string>
+	
+	<string name="attention">Note</string>
+    <string name="delete_all">你是否要删除您的微博?</string>
+    <string name="ok">好</string>
+    
+    <string name="send">发送</string>
+    <string name="close">关闭</string>
+    <string name="share_dialog_title">新浪微博</string>
+    <string name="please_login">请登录!</string>
+    <string name="send_sucess">分享成功!</string>
+    <string name="send_failed">分享失败!</string>
+    <string name="del_pic">你是够要删除您的图片?</string>
+    <string name="sendweibo">Transmission,Please wait...</string>
+    <string name="nosdcard">Please ensure that the memory card has been inserted!</string>
+    <string name="save_failed">Failed to save the file!</string>
+    
+    <string name="from_photo_album">电话相册</string>
+    <string name="from_camera">dianhua shooting</string>
+    <string name="select_method">Selection method</string>
+    
+    <string name="list_loadingnow">正在加载中...</string>
+    
+    <string name="attend_error">请求失败</string>
+    <string name="login_Logo">Authorize use your Sina microblogging account</string>
+    <string name="auth_btn">开始</string>
+    <string name="please_reAuth">Failed to get data, please re-authorization!</string>
+    <string name="app_who">BAI NA</string>
+    <string name="app_about">		The electronic tour guide software is mainly related to the scenic Hangzhou West Lake and West Lake new Ten, maps and GPS positioning for clarity shows the various attractions in their own location, and for users to introduce the attractions information currently in playhope that through our efforts to bring you a pleasant play experience!</string>
+    
+    
+    <string name="change_range">Screening range</string>
+    <string name="range_unit">Kilometer</string>
+    <string name="nowrange">Km range</string>
+    <string name="call">Phone:</string>
+
+    <string name="do_call">打电话</string>
+    <string name="see_map">地图视图</string>
+    <string name="no_callnumber">No telephone information</string>
+    <string name="alert_select">Please select the type of service</string>
+    <string name="alert_noresult">No match is found</string>
+    <string name="please_enter_place">Please enter the name of the location you want to find</string>
+    
+    <string name="text_max">Currently has the largest number font</string>
+    <string name="text_min">The current font for the minimum number</string>
+    
+    <string name="selectfolder">Please select from extraction path</string>
+    <string name="selectfolder_default">Extract</string>
+	<string name="zip_message">Extract to</string>
+	<string name="zip_ok">确定</string>
+	<string name="zip_cancel">取消</string>
+	<string name="unzip_dialog_title">Unpacked, please wait ...</string>
+	<string name="error">Resource error, please re-select the resource package!</string>
+	<string name="selectzip">Please select the resource bundle</string>
+	<string name="changezip">Change Resource Pack</string>
+	
+	
+	<string name="select_mode">请选择模式</string>
+	
+	<!-- 景区中详细信息的文字介绍部分 -->
+	<string name="introduce_feature">
+	    
+	       绍兴文理学院是1996年经国家教委批准建立的一所普通全日制综合性本科院校，
+    其前身可以追溯到1909年创立的山会初级师范学堂，鲁迅先生曾出任山会师范学堂监督（校长）。
+    学校坐落于历史文化名城——浙江省绍兴市，拥有本部（河东、河西、南山）、兰亭、上虞、镜湖等四个校区，
+    校园占地面积1721亩，校舍总建筑面积53万平方米，开设52个本科专业，
+    涵盖经济学、法学、教育学、文学、理学、工学、农学、医学、管理学等九大学科门类."  
+	    
+	</string>
+	
+	<string name="introduce_zhilian">
+	    志廉楼大厅，醒目地竖着一块宣传板，"自信自立自主”六个字赫然入目,展现文理学院学校的学风。
+	 志廉楼坐落于文理河西食堂南侧，是一组实验大楼，内置有各种实验室。包括计算机组成原理实验室，机电运动
+	 控制实验室，实验室环境整洁，设备先进，乃是绍兴市重点科研实验室。是学习和实验的最佳场所。
+	</string>
+	
+		<string name="introduce_caodi">
+	 此场所乃学生嬉戏游玩之地，环境优雅，十分适合男女生独处和班级小聚会。希望情窦初开的你，能在这块风水
+	 宝地上找到你的另一半。可惜，本程序猿还是单身，不是不帅，时候未到!
+	</string>
+	<string name="introduce_gailan">
+	    美丽的文理学院，我们要永别了！在文理生活的两年，带给我无限精彩和活力!感谢母校,感谢老师!祝愿学校越办越好!
+	    </string>
+	
+		<string name="introduce_langqiao">
+		    这里是廊桥，文理水上威尼斯。风景优雅！乃是最佳的居所场地!廊桥很跨
+		    风则江，古城绍兴的环城河，绍兴人民的母亲河。河上耸立着一座飞檐斗拱的廊桥，
+		    “风淳”“正则”四个大字赫然于桥上。这座几年前兴建的廊桥现已成为现代化绍兴的标志性建筑之一
+		    </string>
+    
+</resources>

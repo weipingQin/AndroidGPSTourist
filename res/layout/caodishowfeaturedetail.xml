@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="@color/green"
+        >
+        <Button 
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="后退"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            />
+        <Button 
+            android:id="@+id/btnSound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="朗读"
+            android:onClick="speechText"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+            />
+        <Button 
+            android:id="@+id/size_minus_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_size_minus"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@id/btnSound"
+            />
+        <Button 
+            android:id="@+id/size_plus_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_size_plus"
+            android:layout_toLeftOf="@id/size_minus_bt"
+            />
+        <TextView 
+            android:id="@+id/showName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_toLeftOf="@id/size_plus_bt"
+            android:layout_toRightOf="@id/btnBack"
+            android:gravity="center_horizontal"/>
+    </RelativeLayout>
+    
+    <ImageView
+        android:id="@+id/imagezhilian"
+        android:layout_width="fill_parent"
+        android:layout_height="135dp"
+        android:spacing="5dip"
+        android:background="@drawable/caodi"
+        />
+   <!--  <Gallery 
+        android:id="@+id/galleryshow"
+        android:layout_width="fill_parent"
+        android:layout_height="135dp"
+        android:spacing="5dip"
+        android:background="@color/lightgreen"
+        /> -->
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/showfeatureIntro"
+            android:layout_width="fill_parent"
+            android:layout_height="186dp"
+            android:ems="10"
+            android:text="@string/introduce_caodi"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+    </ScrollView>
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+    </LinearLayout>
+
+</LinearLayout>

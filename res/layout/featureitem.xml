@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/featureitemtop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="160dip"
+            android:layout_height="150dip"
+            android:paddingLeft="10px"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/gpsInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dip"
+            android:text="我的当前位置信息\n
+            GPS位置信息\n获取失败!\n" />
+
+       
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/featureitembutton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5px" >
+        </TextView>
+        
+      <!--    <Button
+            android:id="@+id/btndetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查看详情" /> -->
+    </LinearLayout>
+
+</LinearLayout>
